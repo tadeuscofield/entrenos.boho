@@ -2,6 +2,7 @@
 node_modules/
 dist/
 dist-ssr/
+.vercel/
 *.local
 
 # Logs
@@ -15,3 +16,5 @@ pnpm-debug.log*
 .idea
 .DS_Store
 Thumbs.db
+
+.vercel
