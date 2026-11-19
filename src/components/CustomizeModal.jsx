@@ -285,7 +285,7 @@ export function CustomizeModal({
                     />
                   </div>
                   <textarea
-                    rows={2}
+                    rows={3}
                     placeholder="Dedicatória para o cartão manuscrito..."
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
@@ -301,7 +301,7 @@ export function CustomizeModal({
                 </span>
                 <input
                   type="text"
-                  placeholder="Ex: medida especial ou combinação de duas cores"
+                  placeholder="Ex: medida especial ou duas cores"
                   value={customNotes}
                   onChange={(e) => setCustomNotes(e.target.value)}
                 />

@@ -202,7 +202,7 @@ export function BagDrawer({
                 />
                 <input
                   type="text"
-                  placeholder="Cidade / UF (opcional)"
+                  placeholder="Cidade / UF"
                   value={cityState}
                   onChange={(e) => setCityState(e.target.value)}
                 />

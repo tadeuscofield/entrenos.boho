@@ -1147,10 +1147,10 @@ h2 em {
 }
 
 .modal-close {
-  position: sticky;
-  top: 0;
-  float: right;
-  z-index: 2;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 4;
 }
 
 .modal-grid {
@@ -1575,6 +1575,7 @@ h2 em {
 .mini-dot {
   width: 10px;
   height: 10px;
+  flex-shrink: 0;
   border-radius: 999px;
   border: 1px solid rgba(59, 47, 38, 0.25);
 }
@@ -1787,7 +1788,41 @@ h2 em {
     align-items: flex-start;
   }
 
+  .modal-backdrop {
+    padding: 12px;
+  }
+
   .modal-panel {
-    padding: 20px;
+    padding: 18px;
+  }
+
+  .modal-actions .btn-primary,
+  .modal-actions .btn-secondary {
+    width: 100%;
+  }
+
+  .drawer-scroll-items {
+    padding: 16px 18px;
+  }
+
+  .drawer-checkout-box {
+    padding: 14px 18px 18px;
+  }
+
+  .btn-whatsapp {
+    font-size: 0.84rem;
+    padding: 12px 14px;
+    white-space: nowrap;
+  }
+
+  .drawer-secondary-row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .drawer-secondary-row .btn-secondary,
+  .drawer-secondary-row .btn-ghost {
+    padding: 10px 10px;
+    font-size: 0.8rem;
+    white-space: nowrap;
   }
 }
